@@ -1,0 +1,176 @@
+/* Movile styles */
+
+@media(max-width:634px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 350px 350px 150px 1fr ;
+        grid-gap: 10px;
+        background: #fff;
+    }
+    
+    .header {
+        background-color: #fff; 
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        margin: 50px 0px 0px 0px;
+        
+    }
+    .header h1{
+        background-color: #fff; 
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        margin: 50px 0px 0px 10px;
+        font-size: 28px;
+    }
+    
+    .content {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        margin-top: 35px;
+        font-family: Serif
+    }
+    .content h2 {
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: Poppins;
+    }
+    .content p {
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: Poppins;
+    }
+    /*  Bill Mahoney item*/
+    .image-box1  {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        margin-left: 10px;
+       
+    }
+    .image-box1 img {
+        
+        width: 200px ;
+        height: 274px;
+    }
+    
+    .image-box1 p {
+        transform-origin: top right;
+        font-family:Serif;
+        
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    /* Saba Cabrera item*/
+    .image-box2  {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin-left: 10px;
+    }
+    
+    .image-box2 img {
+        margin-top: 40px;
+        width: 200px ;
+        height: 274px;
+    }
+    
+    .image-box2 p {
+        transform-origin: top right;
+        font-family:Serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    /* Shae Le item*/
+    .image-box3  {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        margin-left: 10px;
+    }
+    
+    .image-box3 img {
+        width: 200px ;
+        height: 274px;
+    }
+    
+    .image-box3 p {
+        transform-origin: top right;
+        font-family:Serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    /* Skyla Lu item*/
+    .image-box4  {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        margin-left: 10px;
+    }
+    
+    .image-box4 img {
+        margin-top: 40px;
+        width: 200px ;
+        height: 274px;
+    }
+    .image-box4 p {
+        
+        font-family:Serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        
+        
+    }
+    /* Griff Richards item*/
+    .image-box5  {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        margin-left: 10px;
+    }
+    
+    .image-box5 img {
+        
+        width: 200px ;
+        height: 274px;
+    }
+    
+    .image-box5 p {
+        transform-origin: top right;
+        font-family:Serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    /* Stan John item*/
+    .image-box6  {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        margin-left: 10px;
+    }
+    
+    .image-box6 img {
+        margin-top: 40px;
+        width: 200px ;
+        height: 274px;
+    }
+    
+    .image-box6 p {
+        transform-origin: top right;
+        font-family:Serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    }
+    
+    footer {
+        margin-top: 45px;
+        font-size: 18px;
+        font-family: Poppins;
+    }
+    
+
+

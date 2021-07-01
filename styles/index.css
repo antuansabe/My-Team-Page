@@ -1,0 +1,159 @@
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+    margin: 0;
+}
+
+
+@media(min-width:635px) {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 350px 350px 150px ;
+    grid-gap: 10px;
+    background: #fff;
+}
+
+.header {
+    background-color: #fff; 
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    margin: 50px 0px 0px 0px;
+    font-size: 22px;
+}
+
+.content {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    margin-top: 35px;
+    font-family: Serif
+}
+.content h2 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Poppins;
+}
+.content p {
+    font-size: 18px;
+    font-family: Poppins;
+}
+/*  Bill Mahoney item*/
+.image-box1  {
+    grid-column-start: 2;
+    grid-row-start: 2;
+   
+}
+.image-box1 img {
+    width: 200px ;
+    height: 274px;
+}
+
+.image-box1 p {
+    transform-origin: top right;
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+/* Saba Cabrera item*/
+.image-box2  {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.image-box2 img {
+    margin-top: 40px;
+    width: 200px ;
+    height: 274px;
+}
+
+.image-box2 p {
+    transform-origin: top right;
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+/* Shae Le item*/
+.image-box3  {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.image-box3 img {
+    width: 200px ;
+    height: 274px;
+}
+
+.image-box3 p {
+    transform-origin: top right;
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+/* Skyla Lu item*/
+.image-box4  {
+    grid-column-start: 2;
+}
+
+.image-box4 img {
+    width: 200px ;
+    height: 274px;
+}
+.image-box4 p {
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+/* Griff Richards item*/
+.image-box5  {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.image-box5 img {
+    margin-top: 40px;
+    width: 200px ;
+    height: 274px;
+}
+
+.image-box5 p {
+    transform-origin: top right;
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+/* Stan John item*/
+.image-box6  {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.image-box6 img {
+    width: 200px ;
+    height: 274px;
+}
+
+.image-box6 p {
+    transform-origin: top right;
+    font-family:Serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
