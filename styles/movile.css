@@ -28,7 +28,7 @@
     
     .content {
         grid-row-start: 1;
-        grid-column-start: 2;
+        grid-column-start: 1;
         margin-top: 35px;
         font-family: Serif
     }
