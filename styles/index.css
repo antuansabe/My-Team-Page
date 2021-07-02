@@ -14,11 +14,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 350px 350px 150px ;
     grid-gap: 10px;
-    background: #fff;
+    background: #F0F4F9;
 }
 
 .header {
-    background-color: #fff; 
+    background-color: #F0F4F9; 
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
