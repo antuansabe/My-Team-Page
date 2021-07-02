@@ -6,11 +6,11 @@
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 1fr 350px 350px 150px 1fr ;
         grid-gap: 10px;
-        background: #fff;
+        background: #F0F4F9;
     }
     
     .header {
-        background-color: #fff; 
+        background-color: #F0F4F9; 
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
